@@ -21,7 +21,7 @@ export default function Frequentlyasked() {
               {questions.map((item, idx) => (
                 <div key={idx} className="overflow-hidden mt-6">
                   <button
-                    className="w-full flex justify-between items-center px-6 py-4 bg-[#D9D9D9] hover:bg-[#ABA7B3] font-semibold transition text-left"
+                    className="w-full flex justify-between items-center px-6 py-4 bg-[#D9D9D9] hover:bg-[#ABA7B3] font-semibold transition text-left max-md:text-sm"
                     onClick={() => toggle(idx)}
                   >
                     <span className='text-[#313030]'>{item.q}</span>
