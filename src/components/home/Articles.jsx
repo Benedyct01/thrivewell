@@ -5,8 +5,8 @@ const Articles = () => {
   return (
     <>
     <section>
-      <div className='mt-20 p-15 text-indigo-900 font-medium text-4xl max-md:text-2xl'>Articles and Resources</div>
-      <div className='mt-5 px-15 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+      <div className='mt-20 p-5 md:p-15 text-indigo-900 font-medium text-4xl max-md:text-2xl'>Articles and Resources</div>
+      <div className='mt-5 px-5 md:px-15 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4'>
   {resources.map((slide) => (
   <div
   className='flex flex-col bg-[#D7D7D7] p-6 max-md:p-3 rounded-lg shadow-md gap-4 max-sm:text-sm '>
