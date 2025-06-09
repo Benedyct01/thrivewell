@@ -1,5 +1,8 @@
 import React from 'react'
 import homehero from '/homehero.png'
+import { IoSearchSharp } from "react-icons/io5";
+
+
 const Hero = () => {
   return (
     <>
@@ -20,7 +23,7 @@ of you. You can conquire it with a little knowledge and skills</p>
       </div>
       <div className='w-1/2 max-lg:w-full'>
       <div
-                        className=" w-full h-screen max-md:h-[50vh]"
+                        className="relative w-full h-screen max-md:h-[50vh]"
                         style={{
                           backgroundImage: `url(${homehero})`,
                           backgroundSize: 'cover',
@@ -28,6 +31,24 @@ of you. You can conquire it with a little knowledge and skills</p>
                           
                         }}
                       >
+                        <div className='absolute bottom-3 right-5 w-[250px] h-[200px] lg:w-[300px] lg:h-[250px] bg-white p-3 lg:p-5 flex flex-col gap-2 lg:gap-5 rounded-3xl'>
+                          <p className='text-semibold'>Available Doctors</p>
+                          <div className='flex flex-row gap-2 lg:gap-5'>
+                            <img src='/michael.png' />
+                            <div className='flex flex-col ml-3'>
+                              <p className='text-sm'>Michael Brown</p>
+                              <p className='text-xs'>Specialty Doctors</p>
+                            </div>
+                          </div>
+                          <div className='flex flex-row gap-2 lg:gap-5'>
+                            <img src='/glory.png' />
+                            <div className='flex flex-col ml-3'>
+                              <p className='text-sm'>Glory George</p>
+                              <p className='text-xs'>Medical Doctor</p>
+                            </div>
+                          </div>
+                          <form action="sumbit"><div className='relative max-lg:pt-4'><input type="text" className='w-full p-1 lg:p-3 bg-white py-2 lg:py-4 px-8 lg:px-10 rounded-full outline-none ring' placeholder='Search Doctor' /><div className='w-5 lg:w-9 h-5 lg:h-9 rounded-md absolute bottom-2 left-3 flex justify-center items-center'><IoSearchSharp className='text-[#313030]' /></div></div></form>
+                        </div>
       </div>
       </div>
       </div>
