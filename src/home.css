@@ -1,0 +1,18 @@
+
+
+body{
+      font-family: 'Inter',sans-serif;
+}
+
+@media (max-width: 600px) {
+      .medicalbg{
+            height: 362px !important;
+            background-size: contain !important;
+      }
+}
+
+@media (max-width: 600px) {
+      .subscribebg{
+            background-size: contain !important;
+      }
+}
