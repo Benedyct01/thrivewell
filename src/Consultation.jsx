@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar';
-import Hero from './components/Consultation/Hero';
+import Hero from './components/consultation/Hero';
 import Deserve from './components/consultation/Deserve';
 import Dedicated from './components/consultation/Dedicated';
 import Footer from './components/home/Footer';
