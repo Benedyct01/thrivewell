@@ -8,6 +8,7 @@ import About from './About'
 import Donations from './Donations'
 import Services from './Services'
 import Consultation from './Consultation'
+import Privacypolicy from './Privacypolicy'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='/donations' element={ <Donations/> }/>
       <Route path='/services' element={ <Services/> }/>
       <Route path='/consultation' element={ <Consultation/> }/>
+      <Route path='/privacypolicy' element={ <Privacypolicy/> }/>
     </Routes>
     </BrowserRouter>
     </>

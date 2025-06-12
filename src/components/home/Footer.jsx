@@ -43,8 +43,8 @@ const Footer = () => {
         <div className='w-full lg:w-1/2 mx-auto flex flex-row  gap-3 px-5 justify-center items-center max-lg:pt-8 font-light lg:font-normal'>
         <div className="flex flex-col gap-4 w-1/3 text-sm">
         <p>Quick Links</p>
-          <Link to="/" className="hover:text-indigo-600 transition">About Us</Link>
-          <a href="/about" className="hover:text-indigo-600 transition">Our services</a>
+          <Link to="/about" className="hover:text-indigo-600 transition">About Us</Link>
+          <a href="/services" className="hover:text-indigo-600 transition">Our services</a>
           <a href="/services" className="hover:text-indigo-600 transition">Article</a>
           <Link to="/contact" className="hover:text-indigo-600 transition">Contact Us</Link>
         </div>
@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 w-1/3 text-sm font-light lg:font-normal">
         <p>Resources</p>
           <Link to="/" className="hover:text-indigo-600 transition">FAQs</Link>
-          <a href="/about" className="hover:text-indigo-600 transition">Privacy Policy</a>
+          <Link to="/privacypolicy" className="hover:text-indigo-600 transition">Privacy Policy</Link>
           <a href="/services" className="hover:text-indigo-600 transition">Terms of Service</a>
         </div>
 
