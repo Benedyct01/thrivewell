@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
     <section>
-    <div className='relative w-full h-screen' 
+    <div className='relative w-full min-h-[100svh]' 
     style={{
             backgroundImage: `url(${abouthero})`,
             backgroundSize: 'cover',

@@ -5,7 +5,7 @@ const Hero = () => {
     <>
     <section>
       <div className='flex flex-row max-lg:flex-col'>
-      <div className='max-sm:w-[80%] md:w-[90%] lg:w-[50%] flex flex-col max-sm:p-10 p-20 mt-20 min-lg:h-[100vh] min-lg:gap-5 min-xl:p-25 gap-3'>
+      <div className='max-sm:w-[80%] md:w-[90%] lg:w-[50%] flex flex-col max-sm:p-10 p-20 mt-20 min-lg:min-h-[100svh] min-lg:gap-5 min-xl:p-25 gap-3'>
       <div className='flex flex-row gap-3 items-center'>
                   <div className="h-px size-2 bg-neutral-300 w-12">
                   </div>
@@ -20,7 +20,7 @@ of you. You can conquire it with a little knowledge and skills</p>
       </div>
       <div className='w-1/2 max-lg:w-full'>
       <div
-                        className=" w-full h-screen max-md:h-[50vh]"
+                        className=" w-full min-h-[100svh] max-md:h-[50vh]"
                         style={{
                           backgroundImage: `url(${homehero})`,
                           backgroundSize: 'cover',
