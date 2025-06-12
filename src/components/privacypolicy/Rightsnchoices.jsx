@@ -4,7 +4,7 @@ import { GiCheckMark } from 'react-icons/gi';
 const Rightsnchoices = () => {
   return (
     <>
-    <div className='mt-20 bg-neutral-700 p-5 md:p-7 lg:p-10'>
+    <div className='mt-20 bg-neutral-500 p-5 md:p-7 lg:p-10'>
     <div className='w-full text-center text-blue-100 font-bold text-base md:text-lg xl:text-[30px]'>User Rights and Choices</div>
     <div className='flex flex-row p-5 gap-15'>
         <div className='w-1/2 flex flex-col text-sm'>At THRIVE WELL, we value your privacy and are committed to ensuring you have control over your personal information. This section outlines your rights and the choices you have when using our services
