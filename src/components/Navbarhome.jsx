@@ -12,18 +12,20 @@ const Navbarhome = () => {
 
 
   useEffect(() => {
-      const handleScroll = () => {
-        if (window.scrollY < lastScrollY) {
-          setShowNavbar(true);
-        } else {
-          setShowNavbar(false);
-        }
-        setLastScrollY(window.scrollY);
-      };
-  
+  const handleScroll = () => {
+    if (window.scrollY === 0) {
+      setShowNavbar(true); 
+    } else if (window.scrollY < lastScrollY) {
+      setShowNavbar(true); 
+    } else {
+      setShowNavbar(false); 
+    }
+    setLastScrollY(window.scrollY);
+  };
+
   window.addEventListener("scroll", handleScroll);
-      return () => window.removeEventListener("scroll", handleScroll);
-    }, [lastScrollY]);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, [lastScrollY]);
   
     useEffect(() => {
       const handleClickOutside = (event) => {
