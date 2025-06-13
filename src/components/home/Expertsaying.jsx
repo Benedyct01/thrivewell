@@ -16,7 +16,7 @@ import { motion } from 'motion/react'
       damping: 20,
     }}
       className='w-full'>
-      <h1 className="text-center text-[18px] lg:text-[38px] font-semibold px-6 -mt-60 md:mt-25 text-[#313030] ">Diabetes & Hypertension</h1>
+      <h1 className="text-center text-[18px] lg:text-[38px] font-semibold px-6 mt-20 md:mt-25 text-[#313030] ">Diabetes & Hypertension</h1>
       <p className='font-semibold text-[#313030] text-center text-[28px] lg:text-[38px] px-4'>What The Experts Are Saying</p>
       <div
       className="mt-5 w-full h-[453px]"
