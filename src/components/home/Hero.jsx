@@ -23,7 +23,7 @@ of you. You can conquire it with a little knowledge and skills</p>
                         className=" w-full min-h-[100svh] max-md:h-[50vh]"
                         style={{
                           backgroundImage: `url(${homehero})`,
-                          backgroundSize: 'cover',
+                          backgroundSize: window.innerWidth <= 480 ? 'contain' : 'cover',
                           backgroundRepeat: 'no-repeat',
                           
                         }}
