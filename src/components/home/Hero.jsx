@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import homehero from '/homehero.png'
 const Hero = () => {
+  const [bgSize, setBgSize] = useState(
+    window.innerWidth <= 480 ? 'contain' : 'cover'
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setBgSize(window.innerWidth <= 480 ? 'contain' : 'cover');
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <>
     <section>
@@ -23,7 +34,7 @@ of you. You can conquire it with a little knowledge and skills</p>
                         className=" w-full min-h-[100svh] max-md:h-[50vh]"
                         style={{
                           backgroundImage: `url(${homehero})`,
-                          backgroundSize: window.innerWidth <= 480 ? 'contain' : 'cover',
+                          backgroundSize: bgSize,
                           backgroundRepeat: 'no-repeat',
                           
                         }}
