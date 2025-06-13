@@ -1,12 +1,22 @@
 import React from 'react'
 import medicalservices from '/medicalservices.png'
 import { FaCheck } from "react-icons/fa6";
+import { motion } from 'motion/react'
 
 const MedicalServices = () => {
   return (
     <>
     <section>
-      <div className='w-[80%] mx-auto flex flex-row max-lg:flex-col-reverse mt-20 justify-center items-center border-indigo-900 min-lg:border rounded-2xl'>
+      <motion.div
+      initial={{ opacity:0, y:50 }}
+    whileInView={{ opacity:1, y:0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.7,
+      damping: 20,
+    }}
+      className='w-[80%] mx-auto flex flex-row max-lg:flex-col-reverse mt-20 justify-center items-center border-indigo-900 min-lg:border rounded-2xl'>
     <div className='w-[50%] max-lg:w-full medicalbg'
                               style={{
                                 backgroundImage: `url(${medicalservices})`,
@@ -34,7 +44,7 @@ const MedicalServices = () => {
               
               
       </div>
-      </div>
+      </motion.div>
       
     </section>
     </>

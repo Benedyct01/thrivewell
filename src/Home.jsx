@@ -17,6 +17,7 @@ const Home = () => {
     <>
     <Hero/>
     <Navbarhome/>
+    <div className='overflow'>
     <Expertsaying/>
     <MedicalServices/>
     <Subscribeservices/>
@@ -26,6 +27,7 @@ const Home = () => {
     <Donate/>
     <Appointment/>
     <Footer/>
+    </div>
   </>
   )
 }

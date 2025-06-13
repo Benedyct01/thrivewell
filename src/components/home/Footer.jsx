@@ -2,11 +2,21 @@ import React from 'react'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { ImArrowUpRight2 } from "react-icons/im";
 import { Link } from 'react-router-dom';
+import { motion } from 'motion/react';
 
 
 const Footer = () => {
   return (
-    <footer className="min-lg:h-[300px] bg-[#313030] text-white pt-8 pb-6 px-4 mt-30 flex flex-col lg:flex-row"
+    <motion.footer
+    initial={{ opacity:0, y:100 }}
+    whileInView={{ opacity:1, y:0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.9,
+      damping: 20,
+    }}
+    className="min-lg:h-[300px] bg-[#313030] text-white pt-8 pb-6 px-4 mt-30 flex flex-col lg:flex-row"
     >
       <div className="w-full lg:w-1/2 mx-auto flex flex-col lg:flex-row  gap-10 lg:justify-center lg:items-center">
         {/* Left: Logo & Social */}
@@ -86,7 +96,7 @@ const Footer = () => {
 
         
       
-    </footer>
+    </motion.footer>
   )
 }
 

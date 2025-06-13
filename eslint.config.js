@@ -27,6 +27,11 @@ export default [
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
+    {
+    globals: {
+    "motion": "readonly"
+  }
+},
       ],
     },
   },

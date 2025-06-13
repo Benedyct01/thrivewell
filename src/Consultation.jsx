@@ -9,10 +9,12 @@ const Consultation = () => {
   return (
     <>
     <Navbar/>
+    <div className='overflow'>
     <Hero/>
     <Deserve/>
     <Dedicated/>
     <Footer/>
+    </div>
     </>
   )
 }

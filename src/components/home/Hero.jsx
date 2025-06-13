@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import homehero from '/homehero.png'
+import { motion } from "motion/react"
+
 const Hero = () => {
   const [bgSize, setBgSize] = useState(
     window.innerWidth <= 480 ? 'contain' : 'cover'
@@ -14,7 +16,16 @@ const Hero = () => {
   }, []);
   return (
     <>
-    <section>
+    <motion.section
+    initial={{ opacity:0, x:-50 }}
+    whileInView={{ opacity:1, x:0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.7,
+      damping: 20,
+      }}
+    >
       <div className='flex flex-row max-lg:flex-col'>
       <div className='max-sm:w-[80%] md:w-[90%] lg:w-[50%] flex flex-col max-sm:p-10 p-20 mt-20 min-lg:min-h-[100svh] min-lg:gap-5 min-xl:p-25 gap-3'>
       <div className='flex flex-row gap-3 items-center'>
@@ -42,7 +53,7 @@ of you. You can conquire it with a little knowledge and skills</p>
       </div>
       </div>
       </div>
-    </section>
+    </motion.section>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { motion } from 'motion/react'
 
 
 
@@ -20,15 +21,33 @@ const Appointment = () => {
   return (
     <section className="w-full mt-20 flex flex-col lg:flex-row items-stretch bg-[#79AEBE]">
       {/* Left: Image */}
-      <div className="w-full lg:w-[40%] flex items-start justify-start">
+      <motion.div
+      initial={{ opacity:0, scale:0.6 }}
+    whileInView={{ opacity:1, scale:1.0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.3,
+      damping: 20,
+    }}
+      className="w-full lg:w-[40%] flex items-start justify-start">
         <img
           src="/appointment.png"
           alt="Appointment"
           className="w-full object-contain h-[450px]"
         />
-      </div>
+      </motion.div>
       {/* Right: Form */}
-      <div className="w-full lg:w-[60%] pt-10 flex items-center justify-center p-8">
+      <motion.div
+      initial={{ opacity:0, x:100 }}
+    whileInView={{ opacity:1, x:0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.7,
+      damping: 20,
+    }}
+      className="w-full lg:w-[60%] pt-10 flex items-center justify-center p-8">
         <form className="w-full max-w-xl">
           <h2 className="text-2xl font-light mb-6 text-neutral-900 text-center">Fix an Appointment</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -94,7 +113,7 @@ const Appointment = () => {
           </div>
           
         </form>
-      </div>
+      </motion.div>
     </section>
   )
 }

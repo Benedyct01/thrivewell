@@ -1,11 +1,28 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
 import { Link } from 'react-router-dom';
+import { motion } from 'motion/react'
 
 
 const Navbar = () => {
       const [isOpen, setIsOpen] = useState(false);
         const menuRef = useRef(null);
+        const [showNavbar, setShowNavbar] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY < lastScrollY) {
+          setShowNavbar(true);
+        } else {
+          setShowNavbar(false);
+        }
+        setLastScrollY(window.scrollY);
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, [lastScrollY]);
   
         
   
@@ -20,8 +37,11 @@ const Navbar = () => {
       return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
   return (
-    <nav
-    className='w-full h-[80px] absolute top-0 left-0 text-[#010080] p-4 z-9999 backdrop-blur-[3px]'
+    <motion.nav
+    initial={{ y: -100 }}
+      animate={{ y: showNavbar ? 0 : -100 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+      className='w-full h-[80px] fixed top-0 left-0 text-[#010080] p-4 z-9999 backdrop-blur-[3px]'
     >
       <div
       className="flex flex-row items-center justify-between "
@@ -52,7 +72,7 @@ const Navbar = () => {
         <button className='max-lg:hidden mr-5 h-[60px] w-[210px] rounded-full inset-0 bg-[#010080] text-white hover:bg-indigo-950 text-center'>Get Started</button>
         </div>
         
-    </nav>
+    </motion.nav>
   )
 }
 

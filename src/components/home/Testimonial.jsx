@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { FaQuoteLeft } from 'react-icons/fa';
 import { testimonials } from '../data';
+import { motion } from 'motion/react'
 
 
 
@@ -30,7 +31,16 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="relative w-full flex flex-col items-center min-h-[800px] max-md:min-h-[750px] mt-20">
+    <motion.div
+    initial={{ opacity:0, scale:0.6 }}
+    whileInView={{ opacity:1, scale:1.0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.7,
+      damping: 20,
+    }}
+    className="relative w-full flex flex-col items-center min-h-[800px] max-md:min-h-[750px] mt-20">
       <div className='p-5 w-full text-center font-light text-black min-lg:text-3xl'>Our <span className='text-indigo-900'>Testimonials</span></div>
       <div className='p-5 w-full text-center font-light text-black min-lg:text-2xl'>Trusted Worldwide great care giving</div>
       <div className='flex m-3 w-20 h-20 rounded-full items-center justify-center inset-0 text-white bg-indigo-900 text-center text-3xl'><div className='text-center justify-center items-center'><FaQuoteLeft/></div></div>
@@ -84,7 +94,7 @@ const Testimonial = () => {
             />
           ))}
         </div>
-    </div>
+    </motion.div>
   );
 };
 

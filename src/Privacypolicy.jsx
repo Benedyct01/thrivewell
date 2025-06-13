@@ -9,10 +9,12 @@ const Privacypolicy = () => {
   return (
     <>
     <Navbar/>
+    <div className='overflow'>
     <Hero/>
     <Docs/>
     <Rightsnchoices/>
     <Footer/>
+    </div>
     </>
   )
 }

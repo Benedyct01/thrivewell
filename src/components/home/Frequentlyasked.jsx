@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { questions } from '../data'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { motion } from 'motion/react'
 
 
 export default function Frequentlyasked() {
@@ -15,9 +16,36 @@ export default function Frequentlyasked() {
     <section>
       <div className='w-full mt-30 bg-[#D7D7D7]/60 max-md:bg-white'>
       <div className='flex flex-col justify-center items-center'>
-            <h1 className='font-semibold text-4xl max-md:text-2xl p-9 text-indigo-900'>Frequently asked questions</h1>
-            <p className='text-neutral-700'>Have Questions? We're here to help</p>
-            <div className="w-[90%] p-7">
+            <motion.h1
+            initial={{ opacity:0, y:100 }}
+    whileInView={{ opacity:1, y:0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.2,
+      damping: 20,
+    }}
+            className='font-semibold text-4xl max-md:text-2xl p-9 text-indigo-900'>Frequently asked questions</motion.h1>
+            <motion.p
+            initial={{ opacity:0, y:100 }}
+    whileInView={{ opacity:1, y:0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.6,
+      damping: 20,
+    }}
+            className='text-neutral-700'>Have Questions? We're here to help</motion.p>
+            <motion.div
+            initial={{ opacity:0, y:100 }}
+    whileInView={{ opacity:1, y:0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.8,
+      damping: 20,
+    }}
+            className="w-[90%] p-7">
               {questions.map((item, idx) => (
                 <div key={idx} className="overflow-hidden mt-6">
                   <button
@@ -41,10 +69,19 @@ export default function Frequentlyasked() {
                     </div>
                 </div>
               ))}
-            </div>
+            </motion.div>
       </div>
 
-              <div className='w-full mt-20 flex flex-col justify-center items-center'>
+              <motion.div
+              initial={{ opacity:0, y:100 }}
+    whileInView={{ opacity:1, y:0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 0.9,
+      damping: 20,
+    }}
+              className='w-full mt-20 flex flex-col justify-center items-center'>
                   <div className='flex flex-row'>
                         <div className='w-8 h-8 rounded-full'><img src='/frequentlypersonone.png'/></div>
                         <div className='w-8 h-8 rounded-full'><img src='/frequentlypersontwo.png'/></div>
@@ -52,10 +89,19 @@ export default function Frequentlyasked() {
                   </div>
       <h1 className='font-semibold text-4xl max-md:text-2xl p-2 text-neutral-900'>Still have questions?</h1>
             <p className='text-neutral-700 text-sm font-medium'>Can't find the answer you're looking for? Ask now.</p>
-            </div>
+            </motion.div>
 
               <form>
-            <div className='w-[70%] max-md:w-[100%] max-md:p-6 flex flex-wrap max-md:flex-col mb-20 justify-center items-center mx-auto'>
+            <motion.div
+            initial={{ opacity:0, scale:0.6 }}
+    whileInView={{ opacity:1, scale:1.0}}
+    transition={{
+      type: "spring",
+      stiffness: 100,
+      delay: 1.0,
+      damping: 20,
+    }}
+            className='w-[70%] max-md:w-[100%] max-md:p-6 flex flex-wrap max-md:flex-col mb-20 justify-center items-center mx-auto'>
                   
                   <div className='w-1/2 max-md:w-full flex flex-col pr-6 max-md:pr-0'>
               <label className="block text-neutral-800 font-medium mb-1 text-sm py-2">Name</label>
@@ -91,7 +137,7 @@ export default function Frequentlyasked() {
             </button>
             </div>
             
-            </div> 
+            </motion.div> 
             </form>
             
       </div>

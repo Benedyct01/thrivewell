@@ -10,11 +10,13 @@ const About = () => {
   return (
     <>
     <Navbar/>
+    <div className='overflow'>
     <Hero/>
     <Abouthrivewell/>
     <Whychooseus/>
     <Corevalues/>
     <Footer/>
+    </div>
     </>
   )
 }
