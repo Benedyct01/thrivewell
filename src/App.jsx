@@ -9,6 +9,8 @@ import Donations from './Donations'
 import Services from './Services'
 import Consultation from './Consultation'
 import Privacypolicy from './Privacypolicy'
+import ScrollToTop from './ScrollToTop'
+
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
       <Route path='/consultation' element={ <Consultation/> }/>
       <Route path='/privacypolicy' element={ <Privacypolicy/> }/>
     </Routes>
+    <ScrollToTop/>
     </BrowserRouter>
     </>
   )
