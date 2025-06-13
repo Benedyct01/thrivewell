@@ -11,18 +11,20 @@ const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
-      const handleScroll = () => {
-        if (window.scrollY < lastScrollY) {
-          setShowNavbar(true);
-        } else {
-          setShowNavbar(false);
-        }
-        setLastScrollY(window.scrollY);
-      };
-  
-      window.addEventListener("scroll", handleScroll);
-      return () => window.removeEventListener("scroll", handleScroll);
-    }, [lastScrollY]);
+   const handleScroll = () => {
+     if (window.scrollY === 0) {
+       setShowNavbar(true); 
+     } else if (window.scrollY < lastScrollY) {
+       setShowNavbar(true); 
+     } else {
+       setShowNavbar(false); 
+     }
+     setLastScrollY(window.scrollY);
+   };
+ 
+   window.addEventListener("scroll", handleScroll);
+   return () => window.removeEventListener("scroll", handleScroll);
+ }, [lastScrollY]);
   
         
   
