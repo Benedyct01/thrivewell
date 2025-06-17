@@ -7,16 +7,17 @@ const Subscribeservices = () => {
   return (
     <>
     <section>
-      <div className='w-[90%] mt-25 max-md:mt-0 bg-neutral-400 max-md:bg-white mx-auto rounded-2xl'>
       <motion.div
-      initial={{ opacity:0, x:50 }}
-    whileInView={{ opacity:1, x:0}}
+      initial={{ opacity:0, y:50 }}
+    whileInView={{ opacity:1, y:0}}
     transition={{
       type: "spring",
       stiffness: 100,
       delay: 0.5,
       damping: 20,
     }}
+      className='w-[90%] mt-25 max-md:mt-0 bg-[#D7D7D7] max-md:bg-white mx-auto rounded-2xl'>
+      <div 
       className='flex flex-row max-lg:flex-col p-5 '>
       <div className='w-[50%] max-lg:w-full flex flex-col p-5 gap-4'>
             <h1 className="max-md:text-center max-sm:text-[14px] text-2xl font-semibold px-6 mt-7 text-[#D1001F] ">Pro Wellness</h1>
@@ -34,7 +35,7 @@ const Subscribeservices = () => {
                                       
                                     }}
             ></div>
-            </motion.div>
+            </div>
       <div className='flex flex-row max-md:flex-wrap justify-center items-center max-md:p-0 p-20'>
       <motion.p
       initial={{ opacity:0, y:50 }}
@@ -136,20 +137,12 @@ const Subscribeservices = () => {
       className='text-center text-sm text-neutral-700 p-5'>Includes 7-day free trial. Cancel anytime.</motion.div>
       
         <div className="flex justify-center items-center w-full p-5">
-        <motion.button
-        initial={{ opacity:0, y:50 }}
-    whileInView={{ opacity:1, y:0}}
-    transition={{
-      type: "spring",
-      stiffness: 100,
-      delay: 1.0,
-      damping: 20,
-    }}
+        <button
         className='w-[70%] h-15 bg-red-500 text-white hover:text-red-500 hover:bg-white hover:border hover:border-red-500 justify-center items-center rounded-2xl mb-6'>
           Continue for Free
-        </motion.button>
+        </button>
       </div>
-      </div>
+      </motion.div>
     </section>
     </>
   )

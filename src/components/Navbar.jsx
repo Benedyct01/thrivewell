@@ -71,7 +71,7 @@ const Navbar = () => {
           <li className={`block ${isOpen ? "" : "max-lg:hidden"} pt-2 pb-2 
                 text-black active:text-indigo-900 hover:text-indigo-900 max-lg:text-white max-lg:hover:text-cyan-200`} ><Link to="/consultation">Consultation</Link></li>
         </ul>
-        <button className='max-lg:hidden mr-5 h-[60px] w-[210px] rounded-full inset-0 bg-[#010080] text-white hover:bg-indigo-950 text-center'>Get Started</button>
+        <button className='max-lg:hidden mr-5 h-[50px] ring-white ring-1  w-[210px] rounded-lg inset-0 bg-[#010080] text-white hover:bg-indigo-950 text-center'>Get Started</button>
         </div>
         
     </motion.nav>
