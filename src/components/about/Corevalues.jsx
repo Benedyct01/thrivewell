@@ -35,29 +35,29 @@ const Corevalues = () => {
     }}
             className='w-full md:w-1/2 flex flex-col gap-5 p-2'>
             <div className='flex flex-row gap-5'>
-                <div classname='w-[10%]'><img src='/iconcheck.png'/></div>
-                <div className='w-[90%] flex flex-col gap-3'>
+                <div className='w-[5%]'><img src='/iconcheck.png'/></div>
+                <div className='w-[95%] flex flex-col gap-3'>
                 <h1 className='text-lg lg:text-3xl text-neutral-600 font-semibold flex flex-row'>Compassion</h1>
             <p className='text-sm md:text-lg lg:text-xl'>We prioritize the well-being of individuals living with chronic illnesses by offering</p>
                 </div>
             </div>
             <div className='flex flex-row gap-5'>
-                <div classname='w-[10%]'><img src='/iconcheck.png'/></div>
-                <div className='w-[90%] flex flex-col gap-3'>
+                <div className='w-[5%]'><img src='/iconcheck.png'/></div>
+                <div className='w-[95%] flex flex-col gap-3'>
                 <h1 className='text-lg lg:text-3xl text-neutral-600 font-semibold flex flex-row'>Innovation</h1>
             <p className='text-sm md:text-lg lg:text-xl'>We leverage technology and modern healthcare solutions to provide seamless, accessible, and effective health management tools.</p>
                 </div>
             </div>
             <div className='flex flex-row gap-5'>
-                <div classname='w-[10%]'><img src='/iconcheck.png'/></div>
-                <div className='w-[90%] flex flex-col gap-3'>
+                <div className='w-[5%]'><img src='/iconcheck.png'/></div>
+                <div className='w-[95%] flex flex-col gap-3'>
                 <h1 className='text-lg lg:text-3xl text-neutral-600 font-semibold flex flex-row'>Education</h1>
             <p className='text-sm md:text-lg lg:text-xl'>We equip our users with knowledge, resources, and community support to help them take charge of their health with confidence.</p>
                 </div>
             </div>
             <div className='flex flex-row gap-5'>
-                <div classname='w-[10%]'><img src='/iconcheck.png'/></div>
-                <div className='w-[90%] flex flex-col gap-3'>
+                <div className='w-[5%]'><img src='/iconcheck.png'/></div>
+                <div className='w-[95%] flex flex-col gap-3'>
                 <h1 className='text-lg lg:text-3xl text-neutral-600 font-semibold flex flex-row'>Empowerment</h1>
             <p className='text-sm md:text-lg lg:text-xl'>We are committed to transparency, trust, and excellence, ensuring that every service we provide meets the highest ethical and medical standards.</p>
                 </div>
