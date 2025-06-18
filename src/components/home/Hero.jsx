@@ -48,7 +48,7 @@ of you. You can conquire it with a little knowledge and skills</p>
                           backgroundImage: `url(${homehero})`,
                           backgroundSize: bgSize,
                           backgroundRepeat: 'no-repeat',
-                          
+                          height: window.innerHeight <= 480 ? '500px' : ''
                         }}
                       >
                       <div className='absolute bottom-20 sm:bottom-11 md:bottom-15 lg:bottom-25 right-3 p-5 bg-white flex flex-col gap-6 rounded-xl'>
