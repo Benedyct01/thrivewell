@@ -1,0 +1,500 @@
+@media screen and (max-width: 500px) {
+    body {
+        height: auto;
+    }
+
+    .first-header {
+      display: none;
+    }
+    
+    .first-header2 {
+      width: 100%;
+      height: 50vh;
+      background-image: url('../images/nurseMan.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .header-text2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 130px;
+      color: #010080;
+      
+    }
+
+    /* .first-header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .header-image {
+        width: 100vw;
+        background-position: center;
+        background-size: cover;
+    } */
+    
+    .header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 40px 0;
+      padding: 0 10px;
+    }
+    .header-dot {
+      width: 50px;
+      height: 4px;
+      margin-left: 30px;
+    }
+
+    .header-dot::before {
+      left: -8px;
+      width: 13px;
+      height: 13px;
+    }
+
+    .header-title {
+        display: none;
+    }
+    .header-title2 {
+      font-size: 13px;
+      margin: 0 5px ;
+      
+    }
+    .main-title {
+      font-size: 18px;
+      margin: 0 auto;
+      text-align: center;
+      width: 250px;
+      word-spacing: 5px;
+      padding-bottom: 50px;
+    }
+    
+    .p-1 {
+      display: none;
+    }
+    .contacts, .contact-2 {
+      display: none;
+    }
+    .container {
+      flex: none;
+      flex-direction: column;
+    }
+
+    /* Form Container Style */
+    .form-container {
+      width: 100%;
+      height: 60vh;
+      margin: 20px auto 60px;
+      border-radius: 10px;
+    }
+    .form-item {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .form-item2 {
+      margin-top: -8px;
+    }
+    .form-input {
+      width: 85%;
+      height: 40px;
+      margin: 25px 20px 10px;
+      font-size: 11px;
+    }
+    .form-name {
+      width: 100%;
+    }
+    .form-email {
+      width: 60%;
+      margin-left: 40px;
+    }
+    .form-phone {
+      width: 88%;
+    }
+    .form-amount {
+      width: 78%;
+      margin-right: 60px;
+
+    }
+    .form-textarea {
+      width: 450px;
+      height: 150px;
+      margin-top: 17px;
+    }
+    .donate-button {
+      width: 335px;
+      font-size: 13px;
+      margin-top: 5px;
+    }
+
+    /* Showcase Style */
+     .showcase {
+      display: none;
+    }
+
+    .showcase-pic {
+      background-image: url('../images/happy-american.png');
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 185px;
+    }
+    .showcase-content-2{
+      color:#fff;
+      padding: 90px 0;
+      text-align: center;
+      
+    }
+    .showcase-text-2 {
+      font-size: 14px;
+      letter-spacing: normal;
+      width: 300px;
+      padding-left: 25px;
+    }
+    .sub-text2 {
+      font-size: 9px;
+      width: 400px;
+      text-align: center;
+      margin-top: 8px;
+    }
+
+   /* Rectangle Styles */
+   .rectangle-container {
+    width: 100%;
+    height: 60vh;
+   }
+    .rectangle-section {
+    margin-left: -8px;
+   }
+    .rectangle-label {
+      margin-left: -40px;
+      line-height: 15px;
+    }
+    .pic-1 {
+      display: none;
+    }
+    .pic-2 {
+      width: 120px;
+      height: 260px;
+      border: 1.5px #000 solid;
+      border-radius: 32px;
+      margin: 100px -70px ;
+    }
+    .tips{
+      display: flex;
+    }
+    .tips-1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #fff;
+      width: 250px;
+      margin-left: -18px;
+    }
+    .icon-3 {
+      display: none;
+    }
+    .icon-5 {
+      width: 45px;
+      margin-top: -13px;
+      margin-left: 20px;
+    }
+    .icon-4 {
+      width: 20px;
+      height: 20px;
+      margin: 10px;
+    }
+    .title {
+      font-size: 12px;
+    }
+    .side-text {
+      font-size: 8px;
+      width: 250px;
+      margin-top: 10px;
+    }
+    /* Goal Container Style */
+    .goal-border {
+      display: none;
+    }
+    .goal-title {
+      font-size: 1.4rem;
+    }
+    .goal-container {
+      display: none;
+    }
+    .goal-container1 {
+      display: flex;
+      flex-direction: column;
+    }   
+    .goal-box {
+      width: 160px;
+      height: 240px;
+    }
+    .goal-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 10px;
+      width: 195px;
+      padding-bottom: 54px;
+      margin: 0 -12px;
+    }
+    .goal-box .goal-sub {
+      width: 160px;
+      height: 40px;
+    }
+    .sub-name {
+      font-size: 10px;
+      padding: 4px 4px;
+      margin: 5px;
+    }
+    .goal-doctor {
+      width: 30px;
+      height: 30px;
+      margin-right: -6px;
+    }
+
+    /* Couple Container */
+    .couple-container{
+      display: none;
+    }
+    .couple-container2 {
+      width: 100%;
+      height: 203px;
+      background-image: url('../images/happy-american.png');
+      opacity: 0.5;
+      background-position: center;
+      background-size: cover;
+      margin-top: 20px;
+    }
+    
+    .couple-title {
+      font-size: 15px;
+      font-weight: bold;
+      margin: -65px;
+      line-height: 45px;
+    }
+    .couple-text {
+      font-size: 8px;
+      margin: 40px -100px;
+      width: 350px;
+      line-height: 15px;
+      margin-bottom: 30px;
+    }
+    .couple-button {
+      font-size: 12px;
+      width: 145px;
+      height: 45px;
+      margin-top: -100px;
+      border-radius: 5px;
+    }
+}
+
+/* Desktop Screen Size */
+@media(min-width: 501px){
+  .header-title2 {
+    display: none;
+  }
+  .first-header2 {
+    display: none;
+  }
+  .header-text {
+    display: none;
+  }
+  /* .header-text {
+    display: none;
+  } */
+
+ .showcase-pic {
+  display: none;
+ }
+
+ .tips {
+  display: none;
+ }
+
+ .goal-container1{
+  display: none;
+ }
+ .couple-container2{
+  display: none;
+ }
+
+
+}
+
+/* Base mobile reset for smaller screens
+@media screen and (min-width: 768px) {
+  body {
+    height: auto;
+  }
+
+  .first-header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .header-dot {
+    margin-left: 0;
+  }
+
+  .main-title,
+  .p-1 {
+    margin-left: 0;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .header {
+    margin: 20px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .contacts,
+  .contact-2 {
+    flex-direction: column;
+  }
+
+  .contact-item {
+    margin: 20px 15px;
+  }
+
+  .form-container {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding-bottom: 20px;
+  }
+
+  .form-input {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .form-textarea,
+  .donate-button {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .showcase {
+    height: auto;
+    background-position: center;
+  }
+
+  .showcase-content {
+    padding: 4rem 1rem;
+  }
+
+  .rectangle-container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .pic-1,
+  .pic-2 {
+    position: static;
+    margin: 20px 0;
+    width: 80%;
+    height: auto;
+  }
+
+  .rectangle-section,
+  .rectangle-label,
+  .side-text {
+    padding: 0 20px;
+    margin: 10px auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .goal-container {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .goal-title,
+  .goal-border {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .goal-context {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .goal-box {
+    width: 80%;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  .goal-text {
+    width: auto;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .goal-box .goal-sub {
+    width: 100%;
+  }
+
+  .couple-container {
+    max-height: none;
+    background-size: cover;
+  }
+
+  .couple-context {
+    padding: 3rem 1rem;
+  }
+
+  .couple-title {
+    font-size: 24px;
+  }
+
+  .couple-text {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .couple-button {
+    width: 80%;
+    height: 3.5rem;
+    font-size: 16px;
+  }
+
+  .icon-3,
+  .icon-4 {
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    
+} */
