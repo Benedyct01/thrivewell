@@ -43,7 +43,7 @@ of you. You can conquire it with a little knowledge and skills</p>
       </div>
       <div className='relative w-1/2 max-lg:w-full'>
       <div
-                        className=" w-full min-h-[100svh] max-md:h-[50vh]"
+                        className=" w-full min-h-[100svh] max-md:h-[70svh]"
                         style={{
                           backgroundImage: `url(${homehero})`,
                           backgroundSize: bgSize,
