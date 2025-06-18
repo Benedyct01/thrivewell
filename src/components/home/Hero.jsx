@@ -43,7 +43,7 @@ of you. You can conquire it with a little knowledge and skills</p>
       </div>
       <div className='relative w-1/2 max-lg:w-full'>
       <div
-                        className=" w-full min-h-[100svh] max-md:h-[70svh]"
+                        className=" w-full min-h-[100svh] max-md:max-h-[70svh]"
                         style={{
                           backgroundImage: `url(${homehero})`,
                           backgroundSize: bgSize,
@@ -51,7 +51,7 @@ of you. You can conquire it with a little knowledge and skills</p>
                           
                         }}
                       >
-                      <div className='absolute bottom-34 sm:bottom-11 md:bottom-15 lg:bottom-25 right-3 p-5 bg-white flex flex-col gap-6 rounded-xl'>
+                      <div className='absolute bottom-20 sm:bottom-11 md:bottom-15 lg:bottom-25 right-3 p-5 bg-white flex flex-col gap-6 rounded-xl'>
                         <p>Available Doctors</p>
                         <div className='flex flex-row'>
                           <img src="/michael.png" alt="" />
