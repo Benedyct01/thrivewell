@@ -28,7 +28,7 @@ information when you use our website and services.</p>
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.3,
+      delay: 0.2,
       damping: 20,
     }}
     className='w-[70%] text-center mb-5 gap-1 mx-auto'>
@@ -45,7 +45,7 @@ information when you use our website and services.</p>
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.4,
+      delay: 0.3,
       damping: 20,
     }}
     className='text-center mb-5 gap-1 w-[70%] mx-auto'>
@@ -64,7 +64,7 @@ information when you use our website and services.</p>
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.5,
+      delay: 0.3,
       damping: 20,
     }}
     className='w-[70%] mx-auto text-center mb-5 gap-1'>
@@ -79,7 +79,7 @@ information when you use our website and services.</p>
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.4,
       damping: 20,
     }}
     className='w-[70%] mx-auto text-center mb-5 gap-1'>
@@ -96,7 +96,7 @@ information when you use our website and services.</p>
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
     className='w-[70%] mx-auto text-center mb-5 gap-1'>
@@ -110,7 +110,7 @@ information when you use our website and services.</p>
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.8,
+      delay: 0.5,
       damping: 20,
     }}
     className='w-[70%] mx-auto text-center mb-5 gap-1'>
@@ -124,7 +124,7 @@ information when you use our website and services.</p>
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.9,
+      delay: 0.5,
       damping: 20,
     }}
     className='w-[70%] mx-auto text-center mb-5 gap-1'>

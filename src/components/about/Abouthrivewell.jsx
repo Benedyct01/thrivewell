@@ -32,7 +32,7 @@ const Abouthrivewell = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.4,
+      delay: 0.3,
       damping: 20,
     }}
         className='w-full md:w-[47%] flex flex-col-reverse md:flex-col p-5 md:p-9 max-md:flex max-md:justify-center max-md:items-center'>
@@ -52,7 +52,7 @@ tools, expert resources, and a strong support community. Our platform provides e
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.5,
+      delay: 0.4,
       damping: 20,
     }}
         className='w-full md:w-[47%] flex flex-col p-5 md:p-11'>
@@ -68,7 +68,7 @@ tools, expert resources, and a strong support community. Our platform provides e
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.4,
       damping: 20,
     }}
         className='w-full md:w-[53%] flex justify-center items-center md:justify-end md:items-end' 

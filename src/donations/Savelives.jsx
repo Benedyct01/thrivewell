@@ -13,7 +13,7 @@ const Savelives = () => {
         transition={{
           type: "spring",
           stiffness: 100,
-          delay: 0.7,
+          delay: 0.3,
           damping: 20,
         }}
         className='relative w-full min-h-[400px] max-md:hidden' 
@@ -38,7 +38,7 @@ const Savelives = () => {
         transition={{
           type: "spring",
           stiffness: 100,
-          delay: 0.7,
+          delay: 0.4,
           damping: 20,
         }}
         className='relative w-full min-h-[250px] md:hidden' 

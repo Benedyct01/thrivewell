@@ -12,7 +12,7 @@ const Articles = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
       className='mt-20 p-5 md:p-15 text-indigo-900 font-medium text-4xl max-md:text-2xl'>Articles and Resources</motion.div>
@@ -22,7 +22,7 @@ const Articles = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.9,
+      delay: 0.5,
       damping: 20,
     }}
       className='mt-5 px-5 md:px-15 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4'>

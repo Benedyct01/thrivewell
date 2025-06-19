@@ -37,7 +37,7 @@ const Testimonial = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.3,
       damping: 20,
     }}
     className="relative w-full flex flex-col items-center min-h-[800px] max-md:min-h-[750px] mt-20">

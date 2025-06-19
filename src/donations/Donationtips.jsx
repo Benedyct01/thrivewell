@@ -15,7 +15,7 @@ const Donationtips = () => {
           damping: 20,
         }}
         className='flex flex-row justify-between pt-10 pl-10 md:pt-15'>
-            <h1 className='min-lg:hidden text-2xl text-white'>ThriveWell Donation Tips</h1>
+            <h1 className='min-lg:hidden text-xl text-white'>ThriveWell Donation Tips</h1>
             <img src="/donationslight.png" className='absolute top-10 right-10 lg:right-80 w-16' alt="" />
         </motion.div>
         <div className='flex flex-row-reverse lg:flex-row'>
@@ -25,7 +25,7 @@ const Donationtips = () => {
         transition={{
           type: "spring",
           stiffness: 100,
-          delay: 0.4,
+          delay: 0.3,
           damping: 20,
         }}
             className='flex flex-row w-[40%] xl:pl-5 pb-10'>
@@ -38,7 +38,7 @@ const Donationtips = () => {
                 transition={{
                   type: "spring",
                   stiffness: 100,
-                  delay: 0.7,
+                  delay: 0.4,
                   damping: 20,
                 }}
                         className='w-[60%] flex flex-col gap-5 pr-5 min-xl:pr-30 md:mt-20 max-md:pt-15'>

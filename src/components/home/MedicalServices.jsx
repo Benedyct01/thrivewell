@@ -13,7 +13,7 @@ const MedicalServices = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
       className='w-[80%] mx-auto flex flex-row max-lg:flex-col-reverse mt-20 justify-center items-center border-indigo-900 min-lg:border rounded-2xl'>

@@ -14,7 +14,7 @@ const Whychooseus = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.3,
       damping: 20,
     }}
                 className='w-full lg:w-1/2 flex flex-col bg-indigo-900 p-4 lg:p-8 gap-4 text-white'>
@@ -29,7 +29,7 @@ const Whychooseus = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.3,
       damping: 20,
     }}
                 className='w-full lg:w-1/2 flex flex-col bg-indigo-900 p-4 lg:p-8 gap-4 text-white'>
@@ -46,7 +46,7 @@ const Whychooseus = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.8,
+      delay: 0.4,
       damping: 20,
     }}
             className='w-full lg:w-1/3 bg-white p-4 gap-4'>
@@ -61,7 +61,7 @@ const Whychooseus = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.9,
+      delay: 0.5,
       damping: 20,
     }}
             className='w-full lg:w-1/3 bg-white p-4 gap-4'>
@@ -77,7 +77,7 @@ Hotline for urgent medical questions.</p>
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 1.0,
+      delay: 0.5,
       damping: 20,
     }}
             className='w-full lg:w-1/3 bg-white p-4 gap-4'>

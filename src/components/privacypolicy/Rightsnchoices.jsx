@@ -11,7 +11,7 @@ const Rightsnchoices = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.3,
       damping: 20,
     }}
     className='mt-20 bg-neutral-500 p-5 md:p-7 lg:p-10'>

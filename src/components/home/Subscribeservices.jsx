@@ -13,7 +13,7 @@ const Subscribeservices = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.5,
+      delay: 0.2,
       damping: 20,
     }}
       className='w-[90%] mt-25 max-md:mt-0 bg-[#D7D7D7] max-md:bg-white mx-auto rounded-2xl'>
@@ -43,7 +43,7 @@ const Subscribeservices = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.2,
       damping: 20,
     }}
       className='font-medium text-[#204BAF] text-center text-[20px] px-4 py-2 min-md:hidden'>SUBSCRIPTION PLAN</motion.p>
@@ -53,7 +53,7 @@ const Subscribeservices = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.3,
       damping: 20,
     }}
       className='w-full flex flex-row max-md:flex-wrap justify-center items-center gap-10 max-md:gap-5'>
@@ -79,7 +79,7 @@ const Subscribeservices = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.8,
+      delay: 0.3,
       damping: 20,
     }}
             className='w-1/3 flex flex-col p-7 max-md:p-4 bg-white max-md:bg-neutral-400 max-md:hover:shadow-2xl max-md:hover:transition max-md:hover:duration-500 min-md:rounded-2xl items-center justify-center text-center group min-md:hover:scale-y-110 min-md:hover:transition-transform min-md:hover:border-2 min-md:hover:duration-500 min-md:hover:border-indigo-900'>
@@ -104,7 +104,7 @@ const Subscribeservices = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.9,
+      delay: 0.4,
       damping: 20,
     }}
             className='w-1/3 flex flex-col p-7 max-md:p-4 bg-white max-md:bg-neutral-400 max-md:hover:shadow-2xl max-md:hover:transition max-md:hover:duration-500 min-md:rounded-2xl items-center justify-center text-center group min-md:hover:scale-y-110 min-md:hover:transition-transform min-md:hover:border-2 min-md:hover:duration-500 min-md:hover:border-indigo-900'>
@@ -131,7 +131,7 @@ const Subscribeservices = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 1.0,
+      delay: 0.5,
       damping: 20,
     }}
       className='text-center text-sm text-neutral-700 p-5'>Includes 7-day free trial. Cancel anytime.</motion.div>

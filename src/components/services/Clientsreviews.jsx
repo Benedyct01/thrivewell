@@ -6,6 +6,7 @@ import { motion } from 'motion/react'
 const Clientsreviews = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const intervalRef = useRef(null);
+  const quoteRefs = useRef([]);
 
   // Auto-scroll every 4 seconds
   useEffect(() => {
@@ -37,6 +38,21 @@ const Clientsreviews = () => {
     }, 4000);
   };
 
+// Move quote image to far right when tab is active
+  useEffect(() => {
+    quoteRefs.current.forEach((ref, idx) => {
+      if (ref) {
+        if (idx === activeIndex) {
+          ref.style.justifyContent = "flex-end";
+          ref.style.transition = "justify-content 0.5s";
+        } else {
+          ref.style.justifyContent = "flex-start";
+          ref.style.transition = "justify-content 0.5s";
+        }
+      }
+    });
+  }, [activeIndex]);
+
   return (
     <motion.div 
     initial={{ opacity:0, scale:0.8 }}
@@ -44,7 +60,7 @@ const Clientsreviews = () => {
         transition={{
           type: "spring",
           stiffness: 100,
-          delay: 0.7,
+          delay: 0.3,
           damping: 20,
         }}
     className="flex flex-col md:flex-row w-full min-h-[200px] bg-white mt-3 md:mt-16">
@@ -76,13 +92,18 @@ const Clientsreviews = () => {
               }}
               tabIndex={0}
             >
-                <div className='flex flex-row'>
+                <div className='flex flex-row' ref={el => quoteRefs.current[idx] = el}>
                     <img src={review.img} alt="" className='w-9 md:w-12 h-9 md:h-12' />
                     <div className='flex flex-col ml-3'>
                         <h1 className='font-semibold text-lg'>{review.name}</h1>
                         <p className='text-sm'>{review.role}</p>
                     </div>
-                    <img src="/reviewquote.png" alt="" className='ml-auto px-5 w-14  h-4 ' />
+                    <img src="/reviewquote.png" alt="" className='ml-auto px-5 w-14  h-4 transition-all duration-500'
+                     style={{
+                    marginLeft: activeIndex === idx ? 'auto' : '0',
+                    marginRight: activeIndex === idx ? '0' : 'auto',
+                  }}
+                    />
                 </div>
               
             </button>

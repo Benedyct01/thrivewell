@@ -12,7 +12,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.5,
+      delay: 0.2,
       damping: 20,
     }}
             className='w-full md:w-[36%] lg:w-[36%] flex flex-col max-md:gap-3 gap-7 max-md:items-center max-md:justify-center max-md:text-center'>
@@ -35,7 +35,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.3,
       damping: 20,
     }}
                 src='/docone.png' className='rounded-3xl min-w-[200px] min-h-[150px] items-end justify-end'/>
@@ -45,7 +45,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.3,
       damping: 20,
     }}
                 src='/doctwo.png' className='rounded-3xl -mt-28 min-w-[200px] min-h-[150px] items-start justify-start'/>
@@ -55,7 +55,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.8,
+      delay: 0.4,
       damping: 20,
     }}
                 src='/docthree.png' className='rounded-3xl min-w-[200px] min-h-[150px]'/>
@@ -65,7 +65,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.9,
+      delay: 0.5,
       damping: 20,
     }}
                 src='/docfour.png' className='rounded-3xl -mt-20 min-w-[200px] min-h-[150px]'/>
@@ -77,7 +77,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.4,
       damping: 20,
     }}
                 src='/mobiledocone.png' className='rounded-3xl -28 min-w-[130px] min-h-[170px] scale-x-[-1] mx-auto -mt-15'/>
@@ -87,7 +87,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
                 src='/mobiledoctwo.png' className='rounded-3xl min-w-[130px] min-h-[170px] scale-x-[-1] mx-auto'/>
@@ -97,7 +97,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.8,
+      delay: 0.5,
       damping: 20,
     }}
                 src='/mobiledocthree.png' className='rounded-3xl  min-w-[130px] min-h-[170px] scale-x-[-1] mx-auto -mt-15'/>
@@ -107,7 +107,7 @@ const Dedicated = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.9,
+      delay: 0.5,
       damping: 20,
     }}
                 src='/mobiledocfour.png' className='rounded-3xl min-w-[130px] min-h-[170px] scale-x-[-1] mx-auto'/>

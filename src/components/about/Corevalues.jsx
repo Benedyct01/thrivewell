@@ -12,7 +12,7 @@ const Corevalues = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.4,
       damping: 20,
     }}
             className='w-full md:w-1/2 flex flex-col gap-5 p-2'>
@@ -30,7 +30,7 @@ const Corevalues = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
             className='w-full md:w-1/2 flex flex-col gap-5 p-2'>
@@ -69,7 +69,7 @@ const Corevalues = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.8,
+      delay: 0.5,
       damping: 20,
     }}
             className='flex justify-center items-center mt-5'>

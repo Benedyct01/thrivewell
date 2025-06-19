@@ -12,7 +12,7 @@ const Hero = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
     className='max-md:hidden relative w-full min-h-[100svh]' 
@@ -35,7 +35,7 @@ const Hero = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
     className='min-md:hidden relative w-full min-h-[100svh]' 

@@ -32,7 +32,7 @@ export default function Frequentlyasked() {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.3,
       damping: 20,
     }}
             className='text-neutral-700'>Have Questions? We're here to help</motion.p>
@@ -42,7 +42,7 @@ export default function Frequentlyasked() {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.8,
+      delay: 0.4,
       damping: 20,
     }}
             className="w-[90%] p-7">
@@ -78,7 +78,7 @@ export default function Frequentlyasked() {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.9,
+      delay: 0.4,
       damping: 20,
     }}
               className='w-full mt-20 flex flex-col justify-center items-center'>
@@ -98,7 +98,7 @@ export default function Frequentlyasked() {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 1.0,
+      delay: 0.5,
       damping: 20,
     }}
             className='w-[70%] max-md:w-[100%] max-md:p-6 flex flex-wrap max-md:flex-col mb-20 justify-center items-center mx-auto'>

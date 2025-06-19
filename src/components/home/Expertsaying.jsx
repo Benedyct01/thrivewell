@@ -12,7 +12,7 @@ import { motion } from 'motion/react'
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
       className='w-full'>

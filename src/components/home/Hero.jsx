@@ -14,7 +14,7 @@ const Hero = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
       }}
     >
@@ -42,7 +42,7 @@ of you. You can conquire it with a little knowledge and skills</p>
                           
                         }}
                       >
-                      <div className='absolute bottom-20 sm:bottom-11 md:bottom-15 lg:bottom-25 right-3 p-5 bg-white flex flex-col gap-6 rounded-xl'>
+                      <div className='absolute bottom-15 lg:bottom-25 right-3 p-5 bg-white flex flex-col gap-6 rounded-xl'>
                         <p>Available Doctors</p>
                         <div className='flex flex-row'>
                           <img src="/michael.png" alt="" />
@@ -58,7 +58,7 @@ of you. You can conquire it with a little knowledge and skills</p>
                             <p className='text-xs'>Medical Director</p>
                           </div>
                         </div>
-                        <form action="sumbit" className='relative border rounded-full'><div className='absolute left-3 top-1 inline-block'><IoIosSearch className='w-7 h-7'/></div><input type='text' className='h-9 mx-2 px-9 max-md:w-[180px] w-[220px] max-md:text-xs' placeholder='Search for Doctor'/></form>
+                        <form action="sumbit" className='relative border rounded-full'><button className='absolute left-3 top-1 inline-block'><IoIosSearch className='w-7 h-7'/></button><input type='text' className='h-9 mx-2 px-9 max-md:w-[180px] w-[220px] max-md:text-xs outline-none' placeholder='Search for Doctor'/></form>
                       </div>
       </div>
       </div>

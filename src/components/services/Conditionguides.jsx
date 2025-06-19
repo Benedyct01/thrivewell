@@ -11,7 +11,7 @@ const Conditionguides = () => {
         transition={{
           type: "spring",
           stiffness: 100,
-          delay: 0.6,
+          delay: 0.3,
           damping: 20,
         }}
         className='grid grid-cols-2 md:grid-cols-3 gap-3 p-5 lg:p-10 bg-[#D7D7D7] '>

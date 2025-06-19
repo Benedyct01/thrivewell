@@ -44,7 +44,7 @@ const Appointment = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
       className="w-full lg:w-[60%] pt-10 flex items-center justify-center p-8">

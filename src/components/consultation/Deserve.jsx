@@ -13,7 +13,7 @@ const Deserve = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.6,
+      delay: 0.3,
       damping: 20,
     }}
                   className='w-full md:w-[45%] flex flex-col p-5 mt-20 gap-2 lg:gap-5'>
@@ -27,7 +27,7 @@ const Deserve = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
                   className='w-[55%] max-md:w-full flex justify-end items-end'>
@@ -49,7 +49,7 @@ const Deserve = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.8,
+      delay: 0.5,
       damping: 20,
     }}
                   className='w-full mt-10 p-5 text-sm text-[#626262] min-md:hidden text-center'>Get instant medical advice, book appointments, and receive prescriptions from certified doctors.</motion.p>
