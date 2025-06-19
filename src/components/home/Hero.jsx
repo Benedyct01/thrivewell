@@ -71,7 +71,7 @@ of you. You can conquire it with a little knowledge and skills</p>
                           
                         }}
                       >
-                      <div className='absolute bottom-6 md:bottom-15 lg:bottom-25 right-3 p-3 bg-white flex flex-col gap-6 rounded-xl'>
+                      <div className='absolute bottom-10 md:bottom-15 lg:bottom-25 right-3 p-3 bg-white flex flex-col gap-6 rounded-xl'>
                         <p>Available Doctors</p>
                         <div className='flex flex-row'>
                           <img src="/michael.png" alt="" />
