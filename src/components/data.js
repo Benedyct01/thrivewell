@@ -47,3 +47,31 @@ export const resources = [
     a: "Billing is processed automatically based on your selected plan. You will be billed monthly or annually, and you can view invoices in your account dashboard."
   },
 ]
+
+export const reviews = [
+  {
+    name: "Martins Charles",
+    img: "/reviewmartins.png",
+    role: "CEO, HealthCorp",
+    text: "Booking an appointment was effortless, and i was able to speak with a doctor within minutes.",
+  },
+  {
+    name: "Glory Wealth",
+    img: "/reviewglory.png",
+    role: "HR Manager, FitLife",
+    text: "Consultation was welcoming. I love it.",
+  },
+  {
+    name: "Peace Michael",
+    img: "/reviewpeace.png",
+    role: "Director, Wellness Inc.",
+    text: "Navigating the website was so simple! i found the information i needed in seconds.",
+  },
+];
+
+export const servicearticle = [
+    { icon: "/consult.png", title: "Consult a Doctor", detail: "Get expert opinions, prescription, and health guidance anytime, anywhere."},
+    { icon: "/medicalappointment.png", title: "Medical Appointments", detail: "Schedule a visit with a trusted healthcare professional at your convenience."},
+    { icon: "/emergencycase.png", title: "Emergency Case", detail: "Quick access to emergency medical assistance - available 24/7."},
+    { icon: "/healthcheckup.png", title: "Health Checkups & Tests", detail: "Stay on top of your health with our fast and reliable medical tests."},
+  ]

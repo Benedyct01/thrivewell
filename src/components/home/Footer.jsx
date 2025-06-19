@@ -13,7 +13,7 @@ const Footer = () => {
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.9,
+      delay: 0.2,
       damping: 20,
     }}
     className="min-lg:h-[300px] bg-[#313030] text-white pt-8 pb-6 px-4 mt-30 flex flex-col lg:flex-row"

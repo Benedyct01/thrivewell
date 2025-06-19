@@ -6,7 +6,16 @@ const Supportthrivewell = () => {
     <>
     <section>
         <div className='flex flex-col md:flex-row p-5 md:p-7 mt-20 gap-11'>
-            <div className='flex-col w-1/2 max-md:w-full'>
+            <motion.div
+            initial={{ opacity:0, x:-50 }}
+        whileInView={{ opacity:1, x:0}}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          delay: 0.4,
+          damping: 20,
+        }}
+            className='flex-col w-1/2 max-md:w-full'>
                 <div className='flex flex-row max-md:ml-9'>
                     <img src="/donationsline.png" className='w-15 h-5' alt="" />
                     <p className='font-semibold text-sm ml-3'><span className='max-md:hidden'>Let's Help</span><span className='md:hidden'>We Love You</span></p>
@@ -43,14 +52,14 @@ const Supportthrivewell = () => {
                     </div>
                   </div>
                 </div>
-            </div>
+            </motion.div>
             <motion.div
       initial={{ opacity:0, x:100 }}
     whileInView={{ opacity:1, x:0}}
     transition={{
       type: "spring",
       stiffness: 100,
-      delay: 0.7,
+      delay: 0.4,
       damping: 20,
     }}
       className="w-1/2 max-md:w-full  flex items-center justify-center mt-10">
