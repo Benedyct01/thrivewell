@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import homehero from '/homehero.png'
 import homeheromobile from '/homeheromobile.png'
-import { motion } from "motion/react"
+import { motion } from "framer-motion"
 import { IoIosSearch } from "react-icons/io";
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
 with chronic illness to thrive <span className='max-lg:hidden'>and live better</span></h1>
 <p className='text-sm lg:text-[17px]'>Diabities or Hypertention doesn’t have to be the end 
 of you. You can conquire it with a little knowledge and skills</p>
-<button className='max-md:hidden mt-4 h-[50px] w-[190px] rounded-2xl inset-0 bg-[#010080] hover:bg-indigo-950 text-white'>Login</button>
+<button className='max-md:hidden mt-4 h-[47px] w-[170px] rounded-2xl inset-0 bg-[#010080] hover:bg-indigo-950 text-white'>Login</button>
 <button className='min-md:hidden h-[47px] w-[150px] rounded-2xl mt-3 bg-[#010080] hover:bg-indigo-950 text-white text-center text-sm'>Get Started</button>
       </div>
       <div className='max-md:hidden relative w-1/2 max-lg:w-full min-h-[70svh] md:min-h-[100svh]'>

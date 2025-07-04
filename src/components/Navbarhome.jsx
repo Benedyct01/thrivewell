@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 
 const Navbarhome = () => {
@@ -70,7 +70,7 @@ const Navbarhome = () => {
           <li className={`block ${isOpen ? "" : "max-lg:hidden"} pt-2 pb-2 
                 text-white active:text-indigo-900 hover:text-indigo-900 max-lg:text-white max-lg:hover:text-cyan-200`} ><Link to="/consultation">Consultation</Link></li>
         </ul>
-        <button className='max-lg:hidden mr-5 h-[50px] ring-white ring-1 w-[210px] rounded-lg inset-0 bg-[#010080] text-white hover:bg-indigo-950 text-center'>Get Started</button>
+        <button className='max-lg:hidden mr-5 h-[47px] ring-white ring-1 w-[170px] rounded-2xl inset-0 bg-[#010080] text-white hover:bg-indigo-950 text-center'>Get Started</button>
         </div>
         
     </motion.nav>

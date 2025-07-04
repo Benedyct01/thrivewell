@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { questions } from '../data'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 
 export default function Frequentlyasked() {
@@ -49,7 +49,7 @@ export default function Frequentlyasked() {
               {questions.map((item, idx) => (
                 <div key={idx} className="overflow-hidden mt-6">
                   <button
-                    className="w-full flex justify-between items-center px-6 py-4 bg-[#D9D9D9] hover:bg-[#ABA7B3] font-semibold transition text-left text-sm md:text-base"
+                    className="w-full flex justify-between items-center px-6 py-4 bg-[#D9D9D9] hover:bg-[#ABA7B3] font-semibold transition text-left text-[12px] md:text-base"
                     onClick={() => toggle(idx)}
                   >
                     <span className='text-[#313030]'>{item.q}</span>
@@ -103,7 +103,7 @@ export default function Frequentlyasked() {
     }}
             className='w-[70%] max-md:w-[100%] max-md:p-6 flex flex-wrap max-md:flex-col mb-20 justify-center items-center mx-auto'>
                   
-                  <div className='w-1/2 max-md:w-full flex flex-col pr-6 max-md:pr-0'>
+                  <div className='w-1/2 max-md:w-full flex flex-col pr-6 max-md:pr-0 md:gap-5'>
               <label className="block text-neutral-800 font-medium mb-1 text-sm py-2">Name</label>
               <input
                 type="text"
@@ -112,7 +112,7 @@ export default function Frequentlyasked() {
                 required
               />
             </div>
-                 <div className='w-1/2 max-md:w-full flex flex-col pl-6 max-md:pl-0'>
+                 <div className='w-1/2 max-md:w-full flex flex-col pl-6 max-md:pl-0 md:gap-5 '>
               <label className="block text-neutral-800 font-medium mb-1 text-sm py-2">Email</label>
               <input
                 type="text"
@@ -121,7 +121,7 @@ export default function Frequentlyasked() {
                 required
               />
             </div> 
-            <div className='relative w-full flex flex-col mb-20 max-md:mb-2'>
+            <div className='relative w-full flex flex-col mb-20 max-md:mb-2 md:gap-5 mt-[20px]'>
               <label className="block text-neutral-800 font-medium mb-1 text-sm py-2">Question</label>
               <textarea
                 rows={4}
@@ -131,7 +131,7 @@ export default function Frequentlyasked() {
               />
               <button
               type="submit"
-              className="absolute bottom-2 right-3 bg-indigo-700 hover:bg-indigo-900 min-md:bg-transparent text-white font-bold min-md:text-neutral-700 min-md:hover:text-white py-3 rounded-lg shadow-md min-md:border transition font-serif p-3 text-sm"
+              className="absolute bottom-2 right-3 bg-indigo-700 hover:bg-indigo-900 min-md:bg-transparent text-white font-bold min-md:text-neutral-700 min-md:hover:text-white py-3 rounded-2xl shadow-md min-md:border transition font-serif p-3 text-sm"
             >
               Submit
             </button>

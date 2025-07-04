@@ -1,7 +1,7 @@
 import React from 'react'
 import serviceshero from '/serviceshero.png'
 import servicesheromobile from '/servicesheromobile.png'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
@@ -59,7 +59,7 @@ className='flex flex-col min-md:hidden'>
         className='w-full max-md:hidden flex flex-row gap-3 items-center mt-5 p-7 px-25'>
                   <div className="h-px size-2 bg-red-700 w-12">
                   </div>
-                  <div className='w-full text-bold text-2xl text-red-700'>Our Services</div>
+                  <div className='w-full text-bold text-2xl text-black'>Our Services</div>
                 </motion.div>
     </section>
     </>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Supportthrivewell = () => {
   return (
@@ -100,7 +100,7 @@ const Supportthrivewell = () => {
           <div className='flex justify-center items-center'>
             <button
             type="submit"
-            className="justify-end items-end w-full bg-indigo-900 hover:bg-indigo-700 text-white font-medium py-3 rounded-lg transition text-sm"
+            className="justify-end items-end w-full bg-indigo-900 hover:bg-indigo-700 text-white font-medium py-3 rounded-2xl transition text-sm"
           >
             DONATE HERE
           </button>

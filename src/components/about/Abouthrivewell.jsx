@@ -1,7 +1,7 @@
 import React from 'react'
 import aboutbgone from '/aboutbgone.png';
 import aboutbgtwo from '/aboutbgtwo.png';
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Abouthrivewell = () => {
   return (
@@ -40,7 +40,7 @@ const Abouthrivewell = () => {
         <p className='text-sm max-md:text-center'>At ThriveWell, we are committed to helping individuals with 
 diabetes and hypertension take control of their health through personalized 
 tools, expert resources, and a strong support community. Our platform provides easy access to health tracking, virtual consultations, educational content, and a space to connect with others on a similar journey. With a patient-first approach, we empower you to live healthier, happier, and stress-free.</p>
-<button className='max-md:hidden h-[47px] w-[150px] rounded-2xl mt-3 bg-[#010080] hover:bg-indigo-950 text-white text-center text-sm'>Get Started</button>
+<button className='max-md:hidden h-[47px] w-[170px] rounded-2xl mt-3 bg-[#010080] hover:bg-indigo-950 text-white text-center text-sm'>Get Started</button>
 <p className='text-neutral-700 text-lg md:text-4xl mt-1 md:mt-5 font-semibold max-md:text-center'>About Thrivewell</p>
         </motion.div>
         </div>
@@ -60,7 +60,7 @@ tools, expert resources, and a strong support community. Our platform provides e
         <p className='text-neutral-700 text-sm max-md:text-center md:mt-4'>At ThriveWell, our mission is to empower individuals living with chronic illnesses by providing accessible healthcare solutions, expert guidance, and a supportive community. We are dedicated to improving health outcomes through technology, education, and personalized care, ensuring that every individual can manage their condition with confidence and ease.</p>
         <p className='text-neutral-700 text-lg md:text-4xl font-semibold max-md:text-center max-md:mt-3 md:mt-4'>Vision</p>
         <p className='text-neutral-700 text-sm max-md:text-center md:mt-4'>Our vision is to revolutionize chronic disease management by creating a world where individuals with diabetes and hypertension have the tools, knowledge, and support needed to thrive. We aim to bridge healthcare gaps by making affordable, patient-centered solutions available to everyone, anytime, anywhere.</p>
-<button className='max-md:hidden h-[47px] w-[150px] rounded-2xl  mt-3 bg-[#010080] hover:bg-indigo-950 text-white text-center text-sm'>About Us</button>
+<button className='max-md:hidden h-[47px] w-[170px] rounded-2xl  mt-3 bg-[#010080] hover:bg-indigo-950 text-white text-center text-sm'>About Us</button>
         </motion.div>
         <motion.div
         initial={{ opacity:0, x:50 }}

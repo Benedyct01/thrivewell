@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { ImArrowUpRight2 } from "react-icons/im";
 import { Link } from 'react-router-dom';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 
 const Footer = () => {

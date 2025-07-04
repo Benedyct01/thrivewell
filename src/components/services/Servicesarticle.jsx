@@ -1,6 +1,6 @@
 import React from 'react'
 import { servicearticle } from '../data'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Servicesarticle = () => {
   return (

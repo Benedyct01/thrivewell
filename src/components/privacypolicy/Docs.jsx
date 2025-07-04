@@ -2,7 +2,7 @@ import React from 'react'
 import { FaCheckSquare } from "react-icons/fa";
 import { IoIosLock } from 'react-icons/io';
 import { GiCheckMark } from 'react-icons/gi';
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Docs = () => {
   return (

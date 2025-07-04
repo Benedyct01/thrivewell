@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Corevalues = () => {
   return (
@@ -21,7 +21,7 @@ const Corevalues = () => {
                 <p className='font-light text-lg lg:text-2xl max-md:text-center'><span className='min-md:hidden'>Our </span>Core Values</p>
             </div>
             <h1 className='font-bold text-2xl lg:text-4xl max-md:text-center'>Your Journey to Better Health Starts Here</h1>
-            <button className='max-md:hidden h-[47px] w-[150px] rounded-2xl mt-3 bg-[#010080] hover:bg-indigo-950 text-white text-center text-sm'>Core Values</button>
+            <button className='max-md:hidden h-[47px] w-[170px] rounded-2xl mt-3 bg-[#010080] hover:bg-indigo-950 text-white text-center text-sm'>Core Values</button>
             </motion.div>
             
             <motion.div

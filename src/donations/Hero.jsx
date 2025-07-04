@@ -1,6 +1,6 @@
 import React from 'react'
 import donationshero from '/donationshero.png';
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (

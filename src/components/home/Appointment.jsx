@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { MdKeyboardArrowDown } from "react-icons/md";
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 
 
@@ -106,7 +106,7 @@ const Appointment = () => {
           <div className='flex justify-end items-end'>
             <button
             type="submit"
-            className="justify-end items-end w-30 bg-indigo-900 hover:bg-indigo-700 text-white font-medium py-3 rounded-lg transition"
+            className="justify-end items-end w-[150px] h-[47px] md:w-[170px] md:h-[47px] bg-indigo-900 hover:bg-indigo-700 text-white font-medium py-3 rounded-2xl transition"
           >
             Book Now
           </button>

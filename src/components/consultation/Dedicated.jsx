@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Dedicated = () => {
   return (
@@ -23,7 +23,7 @@ const Dedicated = () => {
                 </div>
                 <h2 className='max-md:mt-5 font-light text-base md:text-3xl'>We're Dedicated To Your Well-Being</h2>
                 <p className='text-sm text-[#515151]'>What's your biggest concern when it comes to online healthcare consulatations? Let's talk!"</p>
-                <button className='h-[50px] w-[170px] rounded-2xl bg-[#010080] hover:bg-indigo-950 text-white max-md:mb-3'>Contact Us</button>
+                <button className='h-[47px] w-[150px] md:w-[170px] rounded-2xl bg-[#010080] hover:bg-indigo-950 text-white max-md:mb-3'>Contact Us</button>
             </motion.div>
 
             

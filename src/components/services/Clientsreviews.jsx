@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { reviews } from '../data'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 
 const Clientsreviews = () => {

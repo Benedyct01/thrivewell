@@ -1,6 +1,6 @@
 import React from 'react'
 import { GiCheckMark } from 'react-icons/gi';
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Rightsnchoices = () => {
   return (
@@ -31,8 +31,8 @@ const Rightsnchoices = () => {
         </div>
     </div>
     <div className='flex flex-row w-full p-5'>
-        <div className='w-1/2'><button className='mt-8 h-[47px] w-[150px] rounded-2xl bg-[#0e0e30] hover:bg-indigo-950 text-white text-center text-sm'>I Disgree</button></div>
-        <div className='w-1/2 flex justify-end'><button className='mt-8 h-[47px] w-[150px] rounded-2xl bg-[#0e0e30] hover:bg-indigo-950 text-white text-center text-sm'>I Disgree</button></div>
+        <div className='w-1/2'><button className='mt-8 h-[47px] w-[150px] rounded-2xl bg-[#0e0e30] hover:bg-indigo-950 text-white text-center text-sm'>I Agree</button></div>
+        <div className='w-1/2 flex justify-end'><button className='mt-8 h-[47px] w-[150px] rounded-2xl bg-[#0e0e30] hover:bg-indigo-950 text-white text-center text-sm'>I Disagree</button></div>
     </div>
     </motion.div>
     </>

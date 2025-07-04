@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { FaQuoteLeft } from 'react-icons/fa';
 import { testimonials } from '../data';
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 
 
@@ -44,7 +44,7 @@ const Testimonial = () => {
       <div className='p-5 w-full text-center font-light text-black min-lg:text-3xl'>Our <span className='text-indigo-900'>Testimonials</span></div>
       <div className='p-5 w-full text-center font-light text-black min-lg:text-2xl'>Trusted Worldwide great care giving</div>
       <div className='flex m-3 w-20 h-20 rounded-full items-center justify-center inset-0 text-white bg-indigo-900 text-center text-3xl'><div className='text-center justify-center items-center'><FaQuoteLeft/></div></div>
-      <h2 className="text-2xl min-lg:text-4xl font-bold mb-8 text-indigo-900 p-4">What Our Customers Are Saying...</h2>
+      <h2 className="text-xl min-lg:text-4xl font-bold mb-8 text-indigo-900 p-4">What Our Customers Are Saying...</h2>
       <div className="max-w-xl text-center">
         <p className="p-4 text-base min-lg:text-xl font-extralight text-gray-700">"{testimonials[active].quote}"</p>
       </div>

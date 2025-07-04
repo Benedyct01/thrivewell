@@ -1,7 +1,7 @@
 import React from 'react'
 import medicalservices from '/medicalservices.png'
 import { FaCheck } from "react-icons/fa6";
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const MedicalServices = () => {
   return (
@@ -39,7 +39,7 @@ const MedicalServices = () => {
               <div className='flex flex-row'><FaCheck/><span className='ml-5'>Talk to a specialist</span></div>
               <div className='flex flex-row'><FaCheck/><span className='ml-5'>24/7 Medical Support</span></div>
               <div className='flex flex-row'><FaCheck/><span className='ml-5'>Virtual Consultation from Home</span></div>
-              <button className='mt-4 h-[50px] w-[190px] rounded-2xl inset-0 bg-[#010080] text-white'>Book Now</button>
+              <button className='mt-4 w-[150px] h-[47px] md:w-[170px] md:h-[47px] rounded-2xl inset-0 bg-[#010080] text-white'>Book Now</button>
               
               
               
