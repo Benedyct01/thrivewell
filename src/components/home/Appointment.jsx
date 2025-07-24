@@ -81,7 +81,7 @@ const Appointment = () => {
                 readOnly
                 required
               />
-                                <span className='absolute right-3 bottom-3 text-2xl text-black z-999'><MdKeyboardArrowDown/></span>
+                                <span className='absolute right-3 bottom-3 text-2xl text-black z-999 cursor-pointer' onClick={() => setShowDropdown(!showDropdown)}><MdKeyboardArrowDown/></span>
 
               {showDropdown && (
                 <ul className="absolute left-0 right-0 mt-1 bg-white border border-gray-300 rounded-lg shadow z-10">

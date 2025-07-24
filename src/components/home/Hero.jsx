@@ -80,14 +80,14 @@ of you. You can conquire it with a little knowledge and skills</p>
                             <p className='text-xs'>Specialty Doctors</p>
                           </div>
                         </div>
-                        <div className='flex flex-row'>
+                        <div className='flex flex-row cursor-pointer'>
                           <img src="/glory.png" alt="" />
                           <div className='flex flex-col ml-4'>
                             <p className='text-sm'>Glory George</p>
                             <p className='text-xs'>Medical Director</p>
                           </div>
                         </div>
-                        <form action="sumbit" className='relative border rounded-full'><div className='absolute left-3 top-2 md:top-1 inline-block'><IoIosSearch className='max-md:w-4 max-md:h-4 w-7 h-7'/></div><input type='text' className='h-8 mx-2 px-6 md:px-9 max-md:w-[150px] w-[220px] max-md:text-xs' placeholder='Search for Doctor'/></form>
+                        <form action="sumbit" className='relative border rounded-full'><div className='absolute left-3 top-2 md:top-1 inline-block'><IoIosSearch className='max-md:w-4 max-md:h-4 w-7 h-7 cursor-pointer'/></div><input type='text' className='h-8 mx-2 px-6 md:px-9 max-md:w-[150px] w-[220px] max-md:text-xs' placeholder='Search for Doctor'/></form>
                       </div>
       </div>
       </div>

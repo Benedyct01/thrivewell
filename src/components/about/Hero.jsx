@@ -22,8 +22,8 @@ const Hero = () => {
             backgroundRepeat: 'no-repeat',
             }}>
 
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-indigo-900 text-2xl md:text-4xl lg:text-5xl font-bold lg:font-extrabold px-6 py-4">
+                <div className="absolute inset-0 bottom-6 flex items-center justify-center">
+                  <span className="text-indigo-900 text-2xl md:text-4xl font-bold lg:font-extrabold px-6 py-8">
                     <h1 className='font-semibold text-center'>Bridging the gap between Patients and Donors</h1>
                   </span>
                 </div>

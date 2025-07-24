@@ -50,7 +50,6 @@ const Clientsreviews = () => {
     className="flex flex-col md:flex-row w-full min-h-[200px] bg-white mt-3 md:mt-16">
       {/* Left Section: Review Paragraph */}
       <div className="w-full md:w-1/2 flex flex-col justify-center items-start p-5 md:p-10 min-h-[300px] max-md:text-center">
-      <img src="/reviewbigquote.png" className='max-md:hidden w-12 h-15' alt="" />
         <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-[#313030] flex max-md:text-center max-md:mx-auto tracking-wide">Clients Reviews</h2>
         <h3 className='text-base mb-3 text-[#313030] font-extralight'>Our patients trust us for fast, reliable, and compassionate healthcare. From seamless doctor consultations to hassle-free appointment booking, we prioritize your well-being. With top-rated medical experts, secure services, and round-the-clock support, we make healthcare simple and stress-free. Join thousands of satisfied clients who choose us for better health everyday!”</h3>
         <p className="text-lg text-gray-700 transition-all duration-500 min-h-[50px] font-semibold mt-4">

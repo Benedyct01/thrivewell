@@ -75,3 +75,5 @@ export const servicearticle = [
     { icon: "/emergencycase.png", title: "Emergency Case", detail: "Quick access to emergency medical assistance - available 24/7."},
     { icon: "/healthcheckup.png", title: "Health Checkups & Tests", detail: "Stay on top of your health with our fast and reliable medical tests."},
   ]
+
+ 

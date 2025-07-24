@@ -43,7 +43,7 @@ initial={{ opacity:0, y:50 }}
         }}
 className='flex flex-col min-md:hidden'>
     <div className='w-full mt-10 justify-center flex items-center text-center'><div className='w-12 h-1px bg-black size-0.5 mb-6'></div></div>
-        <p className='text-4xl text-center text-red-700 font-semibold'>Our Services</p>
+        <p className='text-4xl text-center text-blue-900 font-semibold'>Our Services</p>
 </motion.div>
         
         
@@ -57,7 +57,7 @@ className='flex flex-col min-md:hidden'>
           damping: 20,
         }}
         className='w-full max-md:hidden flex flex-row gap-3 items-center mt-5 p-7 px-25'>
-                  <div className="h-px size-2 bg-red-700 w-12">
+                  <div className="h-px size-2 bg-blue-900 w-12">
                   </div>
                   <div className='w-full text-bold text-2xl text-black'>Our Services</div>
                 </motion.div>
