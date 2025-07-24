@@ -71,9 +71,9 @@ const Navbarhome = () => {
             isOpen ? 'h-600px w-full right-0 animate-slide-in duration-400' : 'h-[0px]'
           }`}
         >
-          <li className={`block ${isOpen ? "flex justify-center text-center mt-auto" : "max-lg:hidden"} pt-4 pb-4 
+          <li className={`block ${isOpen ? "flex justify-center text-center mt-15" : "max-lg:hidden"} pt-4 pb-4 
                  text-black active:text-indigo-900 hover:text-indigo-900 max-lg:text-white max-lg:hover:text-cyan-200`} ><Link to="/">Home</Link></li>
-          <li className={`block ${isOpen ? "mt-15" : "max-lg:hidden"} pt-4 pb-4 
+          <li className={`block ${isOpen ? "" : "max-lg:hidden"} pt-4 pb-4 
                 text-black active:text-indigo-900 hover:text-indigo-900 max-lg:text-white max-lg:hover:text-cyan-200`} ><Link to="/about">About</Link></li>
           <li className={`block ${isOpen ? "" : "max-lg:hidden"} pt-4 pb-4 
                 text-black active:text-indigo-900 hover:text-indigo-900 max-lg:text-white max-lg:hover:text-cyan-200`} ><Link to="/donations">Donations</Link></li>
