@@ -4,12 +4,12 @@ on:
     branches:
       - main
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Get latest code
+      - name: Checkout repository
         uses: actions/checkout@v4
+      # other steps...
         with:
           fetch-depth: 2
       # Deploy to cPanel
