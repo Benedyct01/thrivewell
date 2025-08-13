@@ -1,24 +1,19 @@
-name: Deploy to cPanel
+name: Deploy Site
+
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+
 jobs:
   deploy:
+    name: 🚀 Deploy website every commit
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 2
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
 
-      # Ensure we're in the repo root (optional, usually not needed)
-      - name: Ensure repo root
-        run: cd $GITHUB_WORKSPACE
-
-      # Deploy to cPanel
-      - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      - name: 📂 Sync files
+        uses: ./
         with:
           ftp-server: ${{ secrets.FTP_SERVER }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
