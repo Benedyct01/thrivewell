@@ -15,6 +15,7 @@ jobs:
       - name: 📂 Sync files
         uses: ./
         with:
-          ftp-server: ${{ secrets.FTP_SERVER }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.thrivewellhealthcare.com
+          username: thrivewell@thrivewellhealthcare.com
+          password: ${{ secrets.ftp_password }}
+          protocol: ftps
