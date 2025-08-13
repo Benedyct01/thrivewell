@@ -9,9 +9,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      # other steps...
         with:
           fetch-depth: 2
+
+      # Ensure we're in the repo root (optional, usually not needed)
+      - name: Ensure repo root
+        run: cd $GITHUB_WORKSPACE
+
       # Deploy to cPanel
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
